@@ -1,0 +1,32 @@
+body {
+    background-color: #2F3E46;
+    color: aqua;
+}
+.meuNome {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.descricao {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.resido {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px ;
+}
+.javascript {
+    font-size: 40px;
+}
+.git {
+    font-size: 30px;
+}
+.github {
+    font-size: 40px;
+}
+.html {
+    font-size: 30px;
+}
+.css {
+    font-size: 40px;
+}
