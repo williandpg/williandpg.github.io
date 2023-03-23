@@ -1,13 +1,14 @@
 body {
     background-color: #2F3E46;
     color: aqua;
+    font-family: 'Montserrat', sans-serif;
 }
 .meuNome {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 .descricao {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     color: aliceblue;
 }
 .resido {
