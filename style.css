@@ -1,56 +1,28 @@
+/*Mudança total*/
 body {
     background-color: #2F3E46;
     color: aqua;
     font-family: 'Montserrat', sans-serif;
-    padding: 3%;
-}
-.meuNome {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
-}
-.descricao {
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-    font-style: italic;
-    padding: 10px;
-    margin: 5px;
-}
-.resido {
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20px ;
-}
-.javascript {
-    font-size: 40px;
-}
-.git {
-    font-size: 30px;
-}
-.github {
-    font-size: 40px;
-}
-.html {
-    font-size: 30px;
-}
-.css {
-    font-size: 40px;
-}
-#minha-foto {
-    float: left;
-    height: 280px;
-    padding: 10px;
-    background-color: black;
-}
-#image-container {
-    height: 300px;
-    position: relative;
-}
-div {
-    border: 2px solid green;
+    padding: 5%;
 }
 
-ul li:nth-child(odd) {
-    background-color: aliceblue;
-    color: black;
+/*Mudanças no cabeçalho*/
+header {
+    float: right;
+    color: white;
+}
+
+/*Mudanças no corpo*/
+main {
+
+}
+
+.imgCode {
+    float: right;
+    width: 400px;
+}
+
+/*Mudanças no rodapé*/
+footer {
+
 }
