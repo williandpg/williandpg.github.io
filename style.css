@@ -1,7 +1,7 @@
 /*Mudança total*/
 body {
     background-color: #2F3E46;
-    color: aqua;
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     padding: 5%;
 }
@@ -9,12 +9,12 @@ body {
 /*Mudanças no cabeçalho*/
 header {
     float: right;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /*Mudanças no corpo*/
 main {
-
+    display: flex;
 }
 
 .imgCode {
@@ -24,5 +24,6 @@ main {
 
 /*Mudanças no rodapé*/
 footer {
-
+    display: flex;
+    align-items: center;
 }
