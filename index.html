@@ -4,46 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
     <title>Portfólio</title>
   </head>
   <body>
 
-    <header class="cabecalho">
-      <nav class="navegador">
-        <a href="#home" target="_blank">Início</a>
-        <a href="#sobre" target="_blank">Sobre</a>
-        <a href="#servicos" target="_blank">Serviços</a>
-        <a href="#portfolio" target="_blank">Portfólio</a>
-        <a href="#contato" target="_blank">Contato</a>
+    <header class="header">
+      <a href="#" class="logo">Portfólio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contact">Contato</a>
       </nav>
     </header>
 
-    <main class="conteudo">
-      <section class="home">
-        <h2 class="ola">Olá eu sou o</h2>
-        <h1 class="meuNome">Willian Gonçalves</h1>
-        <h2>Sou estudante na Trybe</h2>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Olá eu sou o</h3>
+        <h1>Willian Gonçalves</h1>
+        <h3>Sou estudante <span>Full-Stack Developer</span> na Trybe</h3>
         <p>A Trybe é uma escola de tecnologia mais orientada para o desenvolvimento de uma carreira de sucesso. São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais.</p>
-        <img class="imgCode" src="/img/code.gif" alt="Tryber codando">
-      </section>
-      <section class="sobre">
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="#"><i class='bx bxl-linkedin' ></i></a>
+          <a href="#"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="/img/code.gif" alt="">
+      </div>
+    </section>
 
-      </section>
-      <section class="servicos">
+    <section class="about" id="bout">
+      <div class="about-img">
+        <img src="/img/minhaimagem.jpeg" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+        <h3>Full-Stack Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio et, earum quo tempore labore alias voluptatem explicabo non maxime. Consectetur, reprehenderit. Quibusdam ex numquam quia hic molestiae magnam perferendis pariatur.</p>
+      </div>
+      <a href="#" class="btn">Saiba Mais</a>
+    </section>
 
-      </section>
-      <section class="portfolio">
+    <section class="services" id="services">
+      <h2 class="heading">Meus <span>Serviços</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>Desenvolvimento Web</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores beatae consequatur reiciendis et, obcaecati voluptas tenetur ab temporibus nobis distinctio excepturi placeat cupiditate aperiam vero quasi, odit eligendi ullam.</p>
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+        <div class="services-container">
+          <div class="services-box">
+            <i class='bx bx-paint' ></i>
+            <h3>Design Gráfico</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores beatae consequatur reiciendis et, obcaecati voluptas tenetur ab temporibus nobis distinctio excepturi placeat cupiditate aperiam vero quasi, odit eligendi ullam.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+          </div>
+          <div class="services-container">
+            <div class="services-box">
+              <i class='bx bx-bar-chart' ></i>
+              <h3>Marketing Digital</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores beatae consequatur reiciendis et, obcaecati voluptas tenetur ab temporibus nobis distinctio excepturi placeat cupiditate aperiam vero quasi, odit eligendi ullam.</p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+      </div>
+    </section>
 
-      </section>
-      <section class="contato">
+    <section class="portfolio" id="portfolio">
+      
+    </section>
 
-      </section>
-    </main>
-
-    <footer class="rodape">
-      <p class="direitos">Willian Gonçalves - Todos os direitos reservados - 2023.</p>
-    </footer>
   </body>
 </html>
