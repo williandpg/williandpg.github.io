@@ -26,6 +26,12 @@ body {
     color: var(--text-color);
 }
 
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
