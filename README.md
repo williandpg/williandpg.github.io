@@ -2,7 +2,7 @@
 
 <h2><strong>Descrição</strong></h2>
 <p align="justify">
-  Este repositório apresenta meu portfólio profissional, reunindo projetos desenvolvidos nas áreas de <strong>desenvolvimento web</strong>, <strong>inteligência artificial</strong> e <strong>negócios digitais</strong>.
+  Este repositório apresenta meu portfólio profissional, reunindo projetos desenvolvidos nas áreas de desenvolvimento web, inteligência artificial e negócios digitais.
   O objetivo é demonstrar minhas habilidades técnicas, visão criativa e capacidade de construir soluções completas, desde a ideação até a entrega final.
   Todos os projetos aqui representam aprendizados e marcos importantes na minha jornada para consolidar uma carreira sólida como desenvolvedor.
 </p>
@@ -19,7 +19,8 @@
 </ul>
 
 <h2><strong>Demonstração do Portfólio</strong></h2>
-<img src="./assets/portfolio-preview.png" alt="Portfólio Willian Gonçalves" width="60%"/>
+<img src="./assets/portfolio-preview.png" alt="Portfólio Willian Gonçalves" width="40%"/>
+<img src="./assets/portfolio-preview-2.png" alt="Portfólio Willian Gonçalves" width="40%"/>
 <br/>
 <a href="https://williandpg.github.io/" target="_blank"><strong>Acesse meu portfólio online aqui</strong></a>
 
@@ -37,7 +38,8 @@
 │   ├── projeto-4-preview.png
 │   ├── projeto-5-preview.png
 │   ├── projeto-6-preview.png
-│   └── portfolio-preview.png
+│   ├── portfolio-preview.png
+│   └── portfolio-preview-2.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -78,7 +80,7 @@
 
   <h2><strong>Description</strong></h2>
   <p align="justify">
-    This repository showcases my professional portfolio, featuring projects in <strong>web development</strong>, <strong>artificial intelligence</strong>, and <strong>digital entrepreneurship</strong>. 
+    This repository showcases my professional portfolio, featuring projects in web development, artificial intelligence, and digital entrepreneurship. 
     It highlights my technical expertise, creative vision, and ability to deliver complete solutions from concept to deployment.
   </p>
 
@@ -94,7 +96,8 @@
   </ul>
 
   <h2><strong>Portfolio Preview</strong></h2>
-  <img src="./assets/portfolio-preview.png" alt="Willian Gonçalves Portfolio" width="60%"/>
+  <img src="./assets/portfolio-preview.png" alt="Willian Gonçalves Portfolio" width="40%"/>
+  <img src="./assets/portfolio-preview-2.png" alt="Willian Gonçalves Portfolio" width="40%"/>
   <br/>
   <a href="https://williandpg.github.io/" target="_blank"><strong>Visit my online portfolio here</strong></a>
 
@@ -112,7 +115,8 @@
   │   ├── projeto-4-preview.png
   │   ├── projeto-5-preview.png
   │   ├── projeto-6-preview.png
-  │   └── portfolio-preview.png
+  │   ├── portfolio-preview.png
+  │   └── portfolio-preview-2.png
   ├── index.html
   ├── style.css
   ├── script.js
