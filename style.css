@@ -386,19 +386,6 @@ span {
   z-index: 1;
 }
 
-.img-glow-ring {
-  position: absolute;
-  inset: -15px;
-  border-radius: 5rem;
-  background: conic-gradient(from 0deg, var(--main-color), var(--accent), transparent, var(--main-color));
-  animation: rotateBorder 4s linear infinite;
-  opacity: 0.4;
-}
-
-@keyframes rotateBorder {
-  to { transform: rotate(360deg); }
-}
-
 .home-img img {
   width: 32rem;
   border-radius: 4rem;
@@ -846,26 +833,50 @@ span {
   color: var(--text-muted);
 }
 
-.portfolio-layer a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  background: var(--main-color);
-  border-radius: 50%;
-  transition: var(--transition);
+.portfolio-links {
+  display: flex;
+  gap: 1rem;
   align-self: flex-start;
 }
 
-.portfolio-layer a:hover {
-  transform: rotate(45deg);
-  background: var(--accent);
+.portfolio-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: var(--transition);
+  letter-spacing: 0.03em;
 }
 
-.portfolio-layer a i {
-  font-size: 2rem;
+.portfolio-link i {
+  font-size: 1.6rem;
+}
+
+.portfolio-link--demo {
+  background: var(--main-color);
   color: var(--bg-color);
+}
+
+.portfolio-link--demo:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 230, 200, 0.3);
+}
+
+.portfolio-link--repo {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.portfolio-link--repo:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
 }
 
 /* ===== CONTACT ===== */
